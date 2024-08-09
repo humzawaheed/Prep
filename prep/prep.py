@@ -28,3 +28,7 @@ class my_code(BaseCase):
 # B = my_code()
 # B.in_the_code()
 
+fx = lambda x: x*x
+def Uses(fun, value):
+    print(fun*value)
+# Uses(fx(5), 10)
